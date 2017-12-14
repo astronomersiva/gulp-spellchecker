@@ -1,0 +1,26 @@
+{
+  "name": "gulp-spellchecker",
+  "version": "1.0.0",
+  "description": "A cross platform gulp plugin for spell-checking with node-spellchecker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulpplugin",
+    "spell-checking",
+    "spelling"
+  ],
+  "author": "Sivasubramanyam A",
+  "license": "MIT",
+  "dependencies": {
+    "gulp-util": "^3.0.8",
+    "spellchecker": "^3.4.4",
+    "through2": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.13.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
+  }
+}
