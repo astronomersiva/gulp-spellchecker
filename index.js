@@ -53,8 +53,6 @@ module.exports = function (userOptions) {
             log(misspellingLog(`\t${caughtMisspelling}`));
           });
         }
-
-        cb();
       } catch (err) {
         return cb(new PluginError(PLUGIN_NAME, err));
       }
